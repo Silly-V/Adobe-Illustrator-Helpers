@@ -1,2 +1,5 @@
 # Adobe-Illustrator-Helpers
 Various auxillary Illustrator scripts &amp; experiments
+
+#ReloadActions.jsx
+There's an issue with menu-item scripts which are added into Illustrator Actions where those menu items disappear each time Illustrator is restarted. It's due to the need to physically-visually show the File menu so that the scripts that are installed in the scripts folder of Adobe Illustrator are visible. Only then can you re-load the actions which contain the scripts by loading the action sets, to get the working script menu items back. A light-weight semi-automatic scripting way can be used in versions CS6+ to save some clicks: it depends on your action sets being saved in a pre-determined folder. It also needs to be installed as a script in your File > Scripts menu. Once it is there, it works by having you manually activate this script through the file menu which by definition shows the file menu. Since the menu is shown at the point of the script activation, the actions which are automatically reloaded by the script will be working.
